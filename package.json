@@ -1,0 +1,17 @@
+{
+  "name": "6.serveur",
+  "version": "1.0.0",
+  "description": "Jusqu'à maintenant nos applications de liste \"à faire\", se remettent à zéro chaque fois que nous rafraîchissons la page. Tout ce que nous y ajoutons ne reste en mémoire que pour la session courante. Si nous voulons revenir dessus plus tard, ou la partager avec d'autres, il nous faut garder les données sur un serveur.",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-bd": "rm bd.sqlite | node mise-en-place-bd"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "sqlite3": "^3.1.3"
+  }
+}
