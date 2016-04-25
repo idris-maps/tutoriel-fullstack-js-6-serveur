@@ -408,7 +408,7 @@ app.listen(port, function() { console.log('le serveur écoute sur le port ' + po
 
 Il est déjà difficile d'avoir une bonne vue d'ensemble de ce fichier. Nous allons bouger les logiques de l'API dans un autre fichier. Dans ```lib```, créez un dossier ```api``` et à l'intérieur de celui-ci un fichier ```ctrl.js```.
 
-```lib/api/ctrl.js```
+**lib/api/ctrl.js**
 
 ```
 var bd = require('../bd/a-faire')
